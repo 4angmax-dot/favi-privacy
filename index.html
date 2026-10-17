@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FΛVI (FAVI) — Privacy Policy</title>
+<meta name="description" content="Privacy Policy of FΛVI (FAVI), a personal finance tracker for Android (app.favi.finance) by Max Maersk.">
+<style>
+:root{--bg:#F5F8F7;--surface:#FFFFFF;--fg:#16211E;--muted:#56655F;--line:#D7E2DE;--accent:#0B7A5E;--accent-soft:#E1F1EB;color-scheme:light}
+@media (prefers-color-scheme: dark){:root{--bg:#0F1614;--surface:#16201D;--fg:#E7EFEC;--muted:#9DB0A9;--line:#2A3833;--accent:#4FD1A5;--accent-soft:#18322A;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16.5px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Noto Sans CJK SC",sans-serif}
+.wrap{max-width:46rem;margin:0 auto;padding:36px max(16px,env(safe-area-inset-right)) 64px max(16px,env(safe-area-inset-left))}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:14px;margin-bottom:26px}
+.brand{font-weight:800;letter-spacing:.06em;color:var(--accent);font-size:14px}
+h1{font-size:clamp(26px,5.5vw,36px);line-height:1.2;margin:4px 0 6px}
+.meta{font:13px ui-monospace,Menlo,Consolas,monospace;color:var(--muted)}
+select{font:inherit;font-size:15px;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
+.summary{background:var(--accent-soft);border-radius:14px;padding:14px 18px;margin-bottom:24px}
+.summary p{margin:0}
+h2{font-size:19px;margin:30px 0 8px}
+p,li{max-width:68ch}
+ul{padding-left:1.2em}
+li{margin:4px 0}
+code{font:.88em ui-monospace,Menlo,Consolas,monospace}
+a{color:var(--accent)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface);margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div>
+<div class="brand">FΛVI · FAVI</div>
+<h1 id="h1">Privacy Policy</h1>
+<div class="meta">app.favi.finance · <span id="eff">Effective 17 October 2026</span></div>
+</div>
+<select id="lang" aria-label="Language">
+<option value="en">English</option>
+<option value="ru">Русский</option>
+<option value="uk">Українська</option>
+<option value="pl">Polski</option>
+<option value="de">Deutsch</option>
+<option value="es">Español</option>
+<option value="fr">Français</option>
+<option value="pt">Português (Brasil)</option>
+<option value="tr">Türkçe</option>
+<option value="id">Bahasa Indonesia</option>
+<option value="ja">日本語</option>
+<option value="ko">한국어</option>
+<option value="zh">简体中文</option>
+<option value="zh-TW">繁體中文</option>
+</select>
+</header>
+<section id="lang-en" lang="en" class="lang">
+<div class="summary"><p><strong>In short:</strong> FΛVI (FAVI) has no accounts, no ads and no analytics. Your accounts, balances and transactions are stored only on your phone, encrypted. The developer does not receive any of your data.</p></div>
+
+<h2>1. Who we are</h2>
+<p><strong>FΛVI</strong> (also written <strong>FAVI</strong>, Android package <code>app.favi.finance</code>) is a personal finance tracker for Android that shows your bank accounts, cash, crypto wallets, stocks, debts and goals in one place. It is developed and maintained by <strong>Max Maersk</strong>, an independent developer ("we", "us"). This policy explains what happens to your information when you use the app.</p>
+
+<h2>2. Data stored on your device</h2>
+<p>Everything you enter (account names, balances, transactions, categories, budgets, recurring payments, goals, debts, wallet addresses, settings) is stored only on your device.</p>
+<ul>
+<li>Data is encrypted with AES-256-GCM. The key is kept in the Android Keystore.</li>
+<li>Access is protected by a PIN code; fingerprint unlock is optional.</li>
+<li>Android cloud backup of the app's data is turned off, and screenshots of the app are blocked.</li>
+<li>We operate no servers and have no copy of your data.</li>
+</ul>
+
+<h2>3. Backup and sync (optional)</h2>
+<p>If you export a backup or turn on sync, the app writes one file, encrypted with a password you set, to a location you choose with the Android file picker (for example your phone storage or a cloud drive such as Google Drive). We never see this file or the password. The storage provider you choose handles the file under its own privacy policy.</p>
+
+<h2>4. Internet requests to third-party services</h2>
+<p>To show exchange rates, prices and wallet balances, the app sends requests directly from your phone to public services. These requests contain only:</p>
+<ul>
+<li>currency, coin and stock codes (for example <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
+<li>the <strong>public</strong> wallet addresses you add, to read their balances.</li>
+</ul>
+<p>Account names, amounts and transactions are never sent. <strong>Seed phrases and private keys are never requested.</strong> Like any internet request, these services receive your IP address and basic technical information and process it under their own privacy policies.</p>
+<p>The main providers currently used include (but are not limited to):</p>
+<div class="tbl"><table>
+<thead><tr><th>Purpose</th><th>Service</th></tr></thead>
+<tbody>
+<tr><td>Exchange rates</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>Crypto prices</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>Stock and ETF prices</td><td>Yahoo Finance</td></tr>
+<tr><td>Bitcoin balances</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, Solana public RPC</td></tr>
+<tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. Notifications and widget</h2>
+<p>Reminders and price alerts are created on your device; nothing is sent to us. Their content is hidden on the lock screen. The home screen widget shows an amount only if you turn this on in Settings.</p>
+
+<h2>6. Permissions</h2>
+<ul>
+<li><strong>Internet:</strong> for the requests described in section 4.</li>
+<li><strong>Biometrics:</strong> optional fingerprint unlock. Fingerprint data stays in Android and is never available to the app.</li>
+<li><strong>Notifications:</strong> for reminders and price alerts, only if you turn them on.</li>
+</ul>
+
+<h2>7. What we do not do</h2>
+<ul>
+<li>No sign-up or login, no advertising, no analytics or tracking SDKs.</li>
+<li>No connection to your bank, and no payments or transfers of money or crypto. The app only tracks and displays your finances.</li>
+<li>We do not sell or share personal data, because we do not collect it.</li>
+</ul>
+
+<h2>8. Deleting your data</h2>
+<p>Delete the app, or clear its storage in Android settings, to remove everything from your phone. You can also set the app to erase all data after several wrong PIN attempts. Backup files you exported stay where you saved them until you delete them.</p>
+
+<h2>9. Children</h2>
+<p>The app is not directed at children under 13 and does not knowingly process their data.</p>
+
+<h2>10. Changes</h2>
+<p>If this policy changes, the new version will be published on this page with a new effective date.</p>
+
+<h2>11. Contact</h2>
+<p>Developer: Max Maersk. For privacy questions or data requests, contact us here: <a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-ru" lang="ru" class="lang">
+<div class="summary"><p><strong>Коротко:</strong> В FΛVI (FAVI) нет учётных записей, рекламы и аналитики. Ваши счета, балансы и операции хранятся только на вашем телефоне в зашифрованном виде. Разработчик не получает никаких ваших данных.</p></div>
+
+<h2>1. Кто мы</h2>
+<p><strong>FΛVI</strong> (также пишется <strong>FAVI</strong>, пакет Android <code>app.favi.finance</code>) — приложение для учёта личных финансов на Android, которое показывает ваши банковские счета, наличные, криптокошельки, акции, долги и цели в одном месте. Его разрабатывает и поддерживает <strong>Max Maersk</strong>, независимый разработчик («мы»). В этой политике описано, что происходит с вашей информацией при использовании приложения.</p>
+
+<h2>2. Данные, хранящиеся на вашем устройстве</h2>
+<p>Всё, что вы вводите (названия счетов, балансы, операции, категории, бюджеты, регулярные платежи, цели, долги, адреса кошельков, настройки), хранится только на вашем устройстве.</p>
+<ul>
+<li>Данные шифруются по алгоритму AES-256-GCM. Ключ хранится в Android Keystore.</li>
+<li>Доступ защищён PIN-кодом; разблокировку по отпечатку пальца можно включить по желанию.</li>
+<li>Облачное резервное копирование данных приложения средствами Android отключено, а снимки экрана в приложении заблокированы.</li>
+<li>У нас нет серверов, и у нас нет копии ваших данных.</li>
+</ul>
+
+<h2>3. Резервное копирование и синхронизация (по желанию)</h2>
+<p>Если вы экспортируете резервную копию или включаете синхронизацию, приложение записывает один файл, зашифрованный заданным вами паролем, в место, которое вы выбираете через системное окно выбора файлов Android (например, в память телефона или в облачное хранилище, такое как Google Drive). Мы никогда не видим ни этот файл, ни пароль. Выбранный вами поставщик хранилища обрабатывает файл в соответствии со своей политикой конфиденциальности.</p>
+
+<h2>4. Интернет-запросы к сторонним сервисам</h2>
+<p>Чтобы показывать курсы валют, цены и балансы кошельков, приложение отправляет запросы напрямую с вашего телефона к общедоступным сервисам. Эти запросы содержат только:</p>
+<ul>
+<li>коды валют, монет и акций (например, <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
+<li>добавленные вами <strong>публичные</strong> адреса кошельков — чтобы получить их балансы.</li>
+</ul>
+<p>Названия счетов, суммы и операции никогда не передаются. <strong>Сид-фразы и закрытые ключи никогда не запрашиваются.</strong> Как и при любом интернет-запросе, эти сервисы получают ваш IP-адрес и базовую техническую информацию и обрабатывают их в соответствии со своими политиками конфиденциальности.</p>
+<p>В настоящее время используются, в частности, следующие основные поставщики:</p>
+<div class="tbl"><table>
+<thead><tr><th>Назначение</th><th>Сервис</th></tr></thead>
+<tbody>
+<tr><td>Курсы валют</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>Цены криптовалют</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>Цены акций и ETF</td><td>Yahoo Finance</td></tr>
+<tr><td>Балансы Bitcoin</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, публичный RPC Solana</td></tr>
+<tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. Уведомления и виджет</h2>
+<p>Напоминания и ценовые оповещения создаются на вашем устройстве; нам ничего не отправляется. Их содержимое скрыто на экране блокировки. Виджет на главном экране показывает сумму, только если вы включите эту функцию в настройках.</p>
+
+<h2>6. Разрешения</h2>
+<ul>
+<li><strong>Интернет:</strong> для запросов, описанных в разделе 4.</li>
+<li><strong>Биометрия:</strong> разблокировка по отпечатку пальца (по желанию). Данные отпечатков остаются в Android и никогда не доступны приложению.</li>
+<li><strong>Уведомления:</strong> для напоминаний и ценовых оповещений, только если вы их включите.</li>
+</ul>
+
+<h2>7. Чего мы не делаем</h2>
+<ul>
+<li>Нет регистрации и входа, нет рекламы, нет SDK для аналитики или отслеживания.</li>
+<li>Нет подключения к вашему банку, нет платежей и переводов денег или криптовалюты. Приложение только учитывает и отображает ваши финансы.</li>
+<li>Мы не продаём и не передаём персональные данные, потому что не собираем их.</li>
+</ul>
+
+<h2>8. Удаление ваших данных</h2>
+<p>Чтобы удалить все данные с телефона, удалите приложение или очистите его хранилище в настройках Android. Также можно настроить приложение так, чтобы оно стирало все данные после нескольких неверных попыток ввода PIN-кода. Экспортированные вами файлы резервных копий остаются там, где вы их сохранили, пока вы их не удалите.</p>
+
+<h2>9. Дети</h2>
+<p>Приложение не предназначено для детей младше 13 лет и сознательно не обрабатывает их данные.</p>
+
+<h2>10. Изменения</h2>
+<p>Если эта политика изменится, новая редакция будет опубликована на этой странице с новой датой вступления в силу.</p>
+
+<h2>11. Контакты</h2>
+<p>Разработчик: Max Maersk. По вопросам конфиденциальности или запросам, касающимся данных, свяжитесь с нами: <a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-uk" lang="uk" class="lang">
+<div class="summary"><p><strong>Коротко:</strong> У FΛVI (FAVI) немає облікових записів, реклами й аналітики. Ваші рахунки, баланси та операції зберігаються лише на вашому телефоні в зашифрованому вигляді. Розробник не отримує жодних ваших даних.</p></div>
+
+<h2>1. Хто ми</h2>
+<p><strong>FΛVI</strong> (також пишеться <strong>FAVI</strong>, пакет Android <code>app.favi.finance</code>) — застосунок для обліку особистих фінансів на Android, який показує ваші банківські рахунки, готівку, криптогаманці, акції, борги та цілі в одному місці. Його розробляє та підтримує <strong>Max Maersk</strong>, незалежний розробник («ми»). Ця політика пояснює, що відбувається з вашою інформацією, коли ви користуєтеся застосунком.</p>
+
+<h2>2. Дані, що зберігаються на вашому пристрої</h2>
+<p>Усе, що ви вводите (назви рахунків, баланси, операції, категорії, бюджети, регулярні платежі, цілі, борги, адреси гаманців, налаштування), зберігається лише на вашому пристрої.</p>
+<ul>
+<li>Дані шифруються за алгоритмом AES-256-GCM. Ключ зберігається в Android Keystore.</li>
+<li>Доступ захищено PIN-кодом; розблокування відбитком пальця можна ввімкнути за бажанням.</li>
+<li>Хмарне резервне копіювання даних застосунку засобами Android вимкнено, а знімки екрана в застосунку заблоковано.</li>
+<li>Ми не маємо серверів і не маємо копії ваших даних.</li>
+</ul>
+
+<h2>3. Резервне копіювання та синхронізація (за бажанням)</h2>
+<p>Якщо ви експортуєте резервну копію або вмикаєте синхронізацію, застосунок записує один файл, зашифрований встановленим вами паролем, у місце, яке ви обираєте через системне вікно вибору файлів Android (наприклад, у пам’ять телефона або в хмарне сховище, як-от Google Drive). Ми ніколи не бачимо ні цього файлу, ні пароля. Обраний вами постачальник сховища обробляє файл відповідно до власної політики конфіденційності.</p>
+
+<h2>4. Інтернет-запити до сторонніх сервісів</h2>
+<p>Щоб показувати курси валют, ціни та баланси гаманців, застосунок надсилає запити безпосередньо з вашого телефона до загальнодоступних сервісів. Ці запити містять лише:</p>
+<ul>
+<li>коди валют, монет і акцій (наприклад, <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
+<li>додані вами <strong>публічні</strong> адреси гаманців — щоб отримати їхні баланси.</li>
+</ul>
+<p>Назви рахунків, суми та операції ніколи не надсилаються. <strong>Сід-фрази та приватні ключі ніколи не запитуються.</strong> Як і під час будь-якого інтернет-запиту, ці сервіси отримують вашу IP-адресу та базову технічну інформацію й обробляють їх відповідно до власних політик конфіденційності.</p>
+<p>Наразі використовуються, зокрема, такі основні постачальники:</p>
+<div class="tbl"><table>
+<thead><tr><th>Призначення</th><th>Сервіс</th></tr></thead>
+<tbody>
+<tr><td>Курси валют</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>Ціни криптовалют</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>Ціни акцій та ETF</td><td>Yahoo Finance</td></tr>
+<tr><td>Баланси Bitcoin</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, публічний RPC Solana</td></tr>
+<tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. Сповіщення та віджет</h2>
+<p>Нагадування та цінові сповіщення створюються на вашому пристрої; нам нічого не надсилається. Їхній вміст приховано на екрані блокування. Віджет на головному екрані показує суму, лише якщо ви ввімкнете цю функцію в налаштуваннях.</p>
+
+<h2>6. Дозволи</h2>
+<ul>
+<li><strong>Інтернет:</strong> для запитів, описаних у розділі 4.</li>
+<li><strong>Біометрія:</strong> розблокування відбитком пальця (за бажанням). Дані відбитків залишаються в Android і ніколи не доступні застосунку.</li>
+<li><strong>Сповіщення:</strong> для нагадувань і цінових сповіщень, лише якщо ви їх увімкнете.</li>
+</ul>
+
+<h2>7. Чого ми не робимо</h2>
+<ul>
+<li>Без реєстрації та входу, без реклами, без SDK для аналітики чи відстеження.</li>
+<li>Жодного підключення до вашого банку, жодних платежів чи переказів грошей або криптовалюти. Застосунок лише веде облік і відображає ваші фінанси.</li>
+<li>Ми не продаємо й не передаємо персональні дані, бо не збираємо їх.</li>
+</ul>
+
+<h2>8. Видалення ваших даних</h2>
+<p>Щоб видалити все з телефона, видаліть застосунок або очистьте його сховище в налаштуваннях Android. Також можна налаштувати застосунок так, щоб він стирав усі дані після кількох неправильних спроб введення PIN-коду. Експортовані вами файли резервних копій залишаються там, де ви їх зберегли, доки ви їх не видалите.</p>
+
+<h2>9. Діти</h2>
+<p>Застосунок не призначений для дітей віком до 13 років і свідомо не обробляє їхніх даних.</p>
+
+<h2>10. Зміни</h2>
+<p>Якщо ця політика зміниться, нову редакцію буде опубліковано на цій сторінці з новою датою набрання чинності.</p>
+
+<h2>11. Контакти</h2>
+<p>Розробник: Max Maersk. З питань конфіденційності або запитів щодо даних звертайтеся до нас: <a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-pl" lang="pl" class="lang">
+<div class="summary"><p><strong>W skrócie:</strong> FΛVI (FAVI) nie ma kont użytkowników, reklam ani analityki. Twoje rachunki, salda i transakcje są przechowywane wyłącznie na Twoim telefonie, w postaci zaszyfrowanej. Deweloper nie otrzymuje żadnych Twoich danych.</p></div>
+
+<h2>1. Kim jesteśmy</h2>
+<p><strong>FΛVI</strong> (zapisywana także jako <strong>FAVI</strong>, pakiet Android <code>app.favi.finance</code>) to aplikacja na Androida do śledzenia finansów osobistych, która pokazuje w jednym miejscu Twoje rachunki bankowe, gotówkę, portfele kryptowalutowe, akcje, długi i cele. Aplikację tworzy i rozwija <strong>Max Maersk</strong>, niezależny deweloper („my”). Niniejsza polityka wyjaśnia, co dzieje się z Twoimi informacjami, gdy korzystasz z aplikacji.</p>
+
+<h2>2. Dane przechowywane na Twoim urządzeniu</h2>
+<p>Wszystko, co wprowadzasz (nazwy rachunków, salda, transakcje, kategorie, budżety, płatności cykliczne, cele, długi, adresy portfeli, ustawienia), jest przechowywane wyłącznie na Twoim urządzeniu.</p>
+<ul>
+<li>Dane są szyfrowane algorytmem AES-256-GCM. Klucz jest przechowywany w Android Keystore.</li>
+<li>Dostęp jest chroniony kodem PIN; odblokowywanie odciskiem palca jest opcjonalne.</li>
+<li>Kopia zapasowa danych aplikacji w chmurze Androida jest wyłączona, a zrzuty ekranu aplikacji są blokowane.</li>
+<li>Nie prowadzimy żadnych serwerów i nie mamy kopii Twoich danych.</li>
+</ul>
+
+<h2>3. Kopia zapasowa i synchronizacja (opcjonalnie)</h2>
+<p>Jeśli wyeksportujesz kopię zapasową lub włączysz synchronizację, aplikacja zapisze jeden plik, zaszyfrowany ustalonym przez Ciebie hasłem, w miejscu wybranym przez Ciebie w systemowym selektorze plików Androida (np. w pamięci telefonu lub na dysku w chmurze, takim jak Google Drive). Nigdy nie widzimy tego pliku ani hasła. Wybrany przez Ciebie dostawca przechowywania przetwarza plik zgodnie z własną polityką prywatności.</p>
+
+<h2>4. Zapytania internetowe do usług podmiotów trzecich</h2>
+<p>Aby wyświetlać kursy walut, ceny i salda portfeli, aplikacja wysyła zapytania bezpośrednio z Twojego telefonu do publicznie dostępnych usług. Zapytania te zawierają wyłącznie:</p>
+<ul>
+<li>kody walut, kryptowalut i akcji (np. <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
+<li>dodane przez Ciebie <strong>publiczne</strong> adresy portfeli – w celu odczytania ich sald.</li>
+</ul>
+<p>Nazwy rachunków, kwoty i transakcje nigdy nie są przesyłane. <strong>Aplikacja nigdy nie prosi o frazy seed ani klucze prywatne.</strong> Jak w przypadku każdego zapytania internetowego, usługi te otrzymują Twój adres IP i podstawowe informacje techniczne oraz przetwarzają je zgodnie z własnymi politykami prywatności.</p>
+<p>Obecnie korzystamy m.in. z następujących głównych dostawców:</p>
+<div class="tbl"><table>
+<thead><tr><th>Cel</th><th>Usługa</th></tr></thead>
+<tbody>
+<tr><td>Kursy walut</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>Ceny kryptowalut</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>Ceny akcji i ETF</td><td>Yahoo Finance</td></tr>
+<tr><td>Salda Bitcoin</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, publiczne RPC Solana</td></tr>
+<tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. Powiadomienia i widżet</h2>
+<p>Przypomnienia i alerty cenowe są tworzone na Twoim urządzeniu; nic nie jest do nas wysyłane. Ich treść jest ukryta na ekranie blokady. Widżet na ekranie głównym pokazuje kwotę tylko wtedy, gdy włączysz tę opcję w Ustawieniach.</p>
+
+<h2>6. Uprawnienia</h2>
+<ul>
+<li><strong>Internet:</strong> do zapytań opisanych w sekcji 4.</li>
+<li><strong>Biometria:</strong> opcjonalne odblokowywanie odciskiem palca. Dane odcisków palców pozostają w systemie Android i nigdy nie są dostępne dla aplikacji.</li>
+<li><strong>Powiadomienia:</strong> do przypomnień i alertów cenowych, tylko jeśli je włączysz.</li>
+</ul>
+
+<h2>7. Czego nie robimy</h2>
+<ul>
+<li>Brak rejestracji i logowania, brak reklam, brak SDK do analityki lub śledzenia.</li>
+<li>Brak połączenia z Twoim bankiem, brak płatności i przelewów pieniędzy czy kryptowalut. Aplikacja jedynie śledzi i wyświetla Twoje finanse.</li>
+<li>Nie sprzedajemy ani nie udostępniamy danych osobowych, ponieważ ich nie zbieramy.</li>
+</ul>
+
+<h2>8. Usuwanie danych</h2>
+<p>Aby usunąć wszystko z telefonu, odinstaluj aplikację lub wyczyść jej dane w ustawieniach Androida. Możesz też ustawić aplikację tak, aby usuwała wszystkie dane po kilku błędnych próbach wpisania kodu PIN. Wyeksportowane pliki kopii zapasowych pozostają tam, gdzie je zapisano, dopóki ich nie usuniesz.</p>
+
+<h2>9. Dzieci</h2>
+<p>Aplikacja nie jest skierowana do dzieci poniżej 13. roku życia i nie przetwarza świadomie ich danych.</p>
+
+<h2>10. Zmiany</h2>
+<p>W przypadku zmiany niniejszej polityki nowa wersja zostanie opublikowana na tej stronie wraz z nową datą wejścia w życie.</p>
+
+<h2>11. Kontakt</h2>
+<p>Deweloper: Max Maersk. W sprawach dotyczących prywatności lub żądań związanych z danymi skontaktuj się z nami: <a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-de" lang="de" class="lang">
+<div class="summary"><p><strong>Kurz gesagt:</strong> FΛVI (FAVI) hat keine Benutzerkonten, keine Werbung und keine Analyse-Tools. Ihre Konten, Kontostände und Transaktionen werden ausschließlich verschlüsselt auf Ihrem Smartphone gespeichert. Der Entwickler erhält keinerlei Daten von Ihnen.</p></div>
+
+<h2>1. Wer wir sind</h2>
+<p><strong>FΛVI</strong> (auch <strong>FAVI</strong> geschrieben, Android-Paket <code>app.favi.finance</code>) ist eine App zur Verwaltung persönlicher Finanzen für Android, die Ihre Bankkonten, Bargeld, Krypto-Wallets, Aktien, Schulden und Ziele an einem Ort anzeigt. Sie wird von <strong>Max Maersk</strong>, einem unabhängigen Entwickler („wir“, „uns“), entwickelt und gepflegt. Diese Datenschutzerklärung erläutert, was mit Ihren Informationen geschieht, wenn Sie die App nutzen.</p>
+
+<h2>2. Auf Ihrem Gerät gespeicherte Daten</h2>
+<p>Alles, was Sie eingeben (Kontonamen, Kontostände, Transaktionen, Kategorien, Budgets, wiederkehrende Zahlungen, Ziele, Schulden, Wallet-Adressen, Einstellungen), wird ausschließlich auf Ihrem Gerät gespeichert.</p>
+<ul>
+<li>Die Daten werden mit AES-256-GCM verschlüsselt. Der Schlüssel wird im Android Keystore aufbewahrt.</li>
+<li>Der Zugriff ist durch eine PIN geschützt; das Entsperren per Fingerabdruck ist optional.</li>
+<li>Die Android-Cloud-Sicherung der App-Daten ist deaktiviert, und Screenshots der App werden blockiert.</li>
+<li>Wir betreiben keine Server und haben keine Kopie Ihrer Daten.</li>
+</ul>
+
+<h2>3. Sicherung und Synchronisierung (optional)</h2>
+<p>Wenn Sie eine Sicherung exportieren oder die Synchronisierung aktivieren, schreibt die App eine einzelne Datei, verschlüsselt mit einem von Ihnen festgelegten Passwort, an einen Speicherort, den Sie über die Android-Dateiauswahl bestimmen (zum Beispiel den Speicher Ihres Smartphones oder einen Cloud-Speicher wie Google Drive). Wir sehen weder diese Datei noch das Passwort. Der von Ihnen gewählte Speicheranbieter verarbeitet die Datei gemäß seiner eigenen Datenschutzerklärung.</p>
+
+<h2>4. Internetanfragen an Dienste Dritter</h2>
+<p>Um Wechselkurse, Kurse und Wallet-Guthaben anzuzeigen, sendet die App Anfragen direkt von Ihrem Smartphone an öffentliche Dienste. Diese Anfragen enthalten ausschließlich:</p>
+<ul>
+<li>Währungs-, Coin- und Aktienkürzel (zum Beispiel <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
+<li>die von Ihnen hinzugefügten <strong>öffentlichen</strong> Wallet-Adressen, um deren Guthaben abzurufen.</li>
+</ul>
+<p>Kontonamen, Beträge und Transaktionen werden niemals übermittelt. <strong>Seed-Phrasen und private Schlüssel werden niemals abgefragt.</strong> Wie bei jeder Internetanfrage erhalten diese Dienste Ihre IP-Adresse und grundlegende technische Informationen und verarbeiten diese gemäß ihren eigenen Datenschutzerklärungen.</p>
+<p>Zu den derzeit genutzten Hauptanbietern gehören unter anderem:</p>
+<div class="tbl"><table>
+<thead><tr><th>Zweck</th><th>Dienst</th></tr></thead>
+<tbody>
+<tr><td>Wechselkurse</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>Kryptokurse</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>Aktien- und ETF-Kurse</td><td>Yahoo Finance</td></tr>
+<tr><td>Bitcoin-Guthaben</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, öffentlicher Solana-RPC</td></tr>
+<tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. Benachrichtigungen und Widget</h2>
+<p>Erinnerungen und Preisalarme werden auf Ihrem Gerät erstellt; an uns wird nichts gesendet. Ihr Inhalt wird auf dem Sperrbildschirm ausgeblendet. Das Widget auf dem Startbildschirm zeigt nur dann einen Betrag an, wenn Sie dies in den Einstellungen aktivieren.</p>
+
+<h2>6. Berechtigungen</h2>
+<ul>
+<li><strong>Internet:</strong> für die in Abschnitt 4 beschriebenen Anfragen.</li>
+<li><strong>Biometrie:</strong> optionales Entsperren per Fingerabdruck. Fingerabdruckdaten verbleiben in Android und sind für die App niemals zugänglich.</li>
+<li><strong>Benachrichtigungen:</strong> für Erinnerungen und Preisalarme, nur wenn Sie diese aktivieren.</li>
+</ul>
+
+<h2>7. Was wir nicht tun</h2>
+<ul>
+<li>Keine Registrierung oder Anmeldung, keine Werbung, keine Analyse- oder Tracking-SDKs.</li>
+<li>Keine Verbindung zu Ihrer Bank und keine Zahlungen oder Überweisungen von Geld oder Kryptowährungen. Die App erfasst Ihre Finanzen und zeigt sie lediglich an.</li>
+<li>Wir verkaufen oder teilen keine personenbezogenen Daten, da wir keine erheben.</li>
+</ul>
+
+<h2>8. Löschen Ihrer Daten</h2>
+<p>Deinstallieren Sie die App oder löschen Sie ihren Speicher in den Android-Einstellungen, um alles von Ihrem Smartphone zu entfernen. Sie können die App außerdem so einstellen, dass nach mehreren falschen PIN-Eingaben alle Daten gelöscht werden. Von Ihnen exportierte Sicherungsdateien bleiben dort, wo Sie sie gespeichert haben, bis Sie sie löschen.</p>
+
+<h2>9. Kinder</h2>
+<p>Die App richtet sich nicht an Kinder unter 13 Jahren und verarbeitet nicht wissentlich deren Daten.</p>
+
+<h2>10. Änderungen</h2>
+<p>Wenn sich diese Datenschutzerklärung ändert, wird die neue Fassung auf dieser Seite mit einem neuen Gültigkeitsdatum veröffentlicht.</p>
+
+<h2>11. Kontakt</h2>
+<p>Entwickler: Max Maersk. Bei Fragen zum Datenschutz oder Anfragen zu Ihren Daten kontaktieren Sie uns hier: <a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-es" lang="es" class="lang">
+<div class="summary"><p><strong>En resumen:</strong> FΛVI (FAVI) no tiene cuentas de usuario, ni anuncios, ni analíticas. Tus cuentas, saldos y transacciones se guardan solo en tu teléfono, cifrados. El desarrollador no recibe ninguno de tus datos.</p></div>
+
+<h2>1. Quiénes somos</h2>
+<p><strong>FΛVI</strong> (también escrito <strong>FAVI</strong>, paquete de Android <code>app.favi.finance</code>) es una app de finanzas personales para Android que muestra tus cuentas bancarias, efectivo, monederos de criptomonedas, acciones, deudas y objetivos en un solo lugar. La desarrolla y mantiene <strong>Max Maersk</strong>, un desarrollador independiente («nosotros»). Esta política explica qué ocurre con tu información cuando usas la app.</p>
+
+<h2>2. Datos almacenados en tu dispositivo</h2>
+<p>Todo lo que introduces (nombres de cuentas, saldos, transacciones, categorías, presupuestos, pagos recurrentes, objetivos, deudas, direcciones de monederos, ajustes) se almacena únicamente en tu dispositivo.</p>
+<ul>
+<li>Los datos se cifran con AES-256-GCM. La clave se guarda en el Android Keystore.</li>
+<li>El acceso está protegido con un código PIN; el desbloqueo con huella dactilar es opcional.</li>
+<li>La copia de seguridad en la nube de Android está desactivada para los datos de la app, y las capturas de pantalla de la app están bloqueadas.</li>
+<li>No operamos ningún servidor ni tenemos copia de tus datos.</li>
+</ul>
+
+<h2>3. Copia de seguridad y sincronización (opcional)</h2>
+<p>Si exportas una copia de seguridad o activas la sincronización, la app escribe un único archivo, cifrado con una contraseña que tú eliges, en la ubicación que selecciones con el selector de archivos de Android (por ejemplo, el almacenamiento de tu teléfono o un servicio en la nube como Google Drive). Nunca vemos este archivo ni la contraseña. El proveedor de almacenamiento que elijas gestiona el archivo conforme a su propia política de privacidad.</p>
+
+<h2>4. Solicitudes por internet a servicios de terceros</h2>
+<p>Para mostrar tipos de cambio, precios y saldos de monederos, la app envía solicitudes directamente desde tu teléfono a servicios públicos. Estas solicitudes contienen únicamente:</p>
+<ul>
+<li>códigos de divisas, criptomonedas y acciones (por ejemplo, <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
+<li>las direcciones <strong>públicas</strong> de monederos que añadas, para consultar sus saldos.</li>
+</ul>
+<p>Nunca se envían nombres de cuentas, importes ni transacciones. <strong>Nunca se solicitan frases semilla ni claves privadas.</strong> Como ocurre con cualquier solicitud por internet, estos servicios reciben tu dirección IP e información técnica básica, y la tratan conforme a sus propias políticas de privacidad.</p>
+<p>Entre los principales proveedores que se utilizan actualmente se encuentran (sin limitarse a ellos):</p>
+<div class="tbl"><table>
+<thead><tr><th>Finalidad</th><th>Servicio</th></tr></thead>
+<tbody>
+<tr><td>Tipos de cambio</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>Precios de criptomonedas</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>Precios de acciones y ETF</td><td>Yahoo Finance</td></tr>
+<tr><td>Saldos de Bitcoin</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, RPC público de Solana</td></tr>
+<tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. Notificaciones y widget</h2>
+<p>Los recordatorios y las alertas de precio se crean en tu dispositivo; no se nos envía nada. Su contenido se oculta en la pantalla de bloqueo. El widget de la pantalla de inicio solo muestra un importe si activas esta opción en Ajustes.</p>
+
+<h2>6. Permisos</h2>
+<ul>
+<li><strong>Internet:</strong> para las solicitudes descritas en la sección 4.</li>
+<li><strong>Biometría:</strong> desbloqueo opcional con huella dactilar. Los datos de la huella permanecen en Android y la app nunca tiene acceso a ellos.</li>
+<li><strong>Notificaciones:</strong> para recordatorios y alertas de precio, solo si las activas.</li>
+</ul>
+
+<h2>7. Lo que no hacemos</h2>
+<ul>
+<li>Sin registro ni inicio de sesión, sin publicidad, sin SDK de analítica ni de seguimiento.</li>
+<li>Sin conexión con tu banco, y sin pagos ni transferencias de dinero o criptomonedas. La app solo registra y muestra tus finanzas.</li>
+<li>No vendemos ni compartimos datos personales, porque no los recopilamos.</li>
+</ul>
+
+<h2>8. Eliminar tus datos</h2>
+<p>Desinstala la app o borra su almacenamiento en los ajustes de Android para eliminarlo todo de tu teléfono. También puedes configurar la app para que borre todos los datos tras varios intentos fallidos de PIN. Las copias de seguridad que hayas exportado permanecen donde las guardaste hasta que las elimines.</p>
+
+<h2>9. Menores</h2>
+<p>La app no está dirigida a menores de 13 años y no trata conscientemente sus datos.</p>
+
+<h2>10. Cambios</h2>
+<p>Si esta política cambia, la nueva versión se publicará en esta página con una nueva fecha de entrada en vigor.</p>
+
+<h2>11. Contacto</h2>
+<p>Desarrollador: Max Maersk. Para preguntas sobre privacidad o solicitudes relacionadas con tus datos, contáctanos aquí: <a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-fr" lang="fr" class="lang">
+<div class="summary"><p><strong>En bref :</strong> FΛVI (FAVI) ne nécessite aucun compte et ne contient ni publicité ni outils d’analyse. Vos comptes, soldes et transactions sont stockés uniquement sur votre téléphone, sous forme chiffrée. Le développeur ne reçoit aucune de vos données.</p></div>
+
+<h2>1. Qui sommes-nous</h2>
+<p><strong>FΛVI</strong> (également écrit <strong>FAVI</strong>, package Android <code>app.favi.finance</code>) est une application de suivi des finances personnelles pour Android qui regroupe au même endroit vos comptes bancaires, espèces, portefeuilles crypto, actions, dettes et objectifs. Elle est développée et maintenue par <strong>Max Maersk</strong>, développeur indépendant (« nous »). La présente politique explique ce qu’il advient de vos informations lorsque vous utilisez l’application.</p>
+
+<h2>2. Données stockées sur votre appareil</h2>
+<p>Tout ce que vous saisissez (noms de comptes, soldes, transactions, catégories, budgets, paiements récurrents, objectifs, dettes, adresses de portefeuilles, paramètres) est stocké uniquement sur votre appareil.</p>
+<ul>
+<li>Les données sont chiffrées avec AES-256-GCM. La clé est conservée dans l’Android Keystore.</li>
+<li>L’accès est protégé par un code PIN ; le déverrouillage par empreinte digitale est facultatif.</li>
+<li>La sauvegarde cloud Android des données de l’application est désactivée et les captures d’écran de l’application sont bloquées.</li>
+<li>Nous n’exploitons aucun serveur et ne détenons aucune copie de vos données.</li>
+</ul>
+
+<h2>3. Sauvegarde et synchronisation (facultatives)</h2>
+<p>Si vous exportez une sauvegarde ou activez la synchronisation, l’application enregistre un fichier unique, chiffré avec un mot de passe que vous définissez, à l’emplacement que vous choisissez via le sélecteur de fichiers Android (par exemple la mémoire de votre téléphone ou un stockage cloud comme Google Drive). Nous ne voyons jamais ce fichier ni le mot de passe. Le fournisseur de stockage que vous choisissez traite le fichier conformément à sa propre politique de confidentialité.</p>
+
+<h2>4. Requêtes Internet vers des services tiers</h2>
+<p>Pour afficher les taux de change, les cours et les soldes des portefeuilles, l’application envoie des requêtes directement depuis votre téléphone vers des services publics. Ces requêtes contiennent uniquement :</p>
+<ul>
+<li>les codes de devises, de cryptomonnaies et d’actions (par exemple <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>) ;</li>
+<li>les adresses <strong>publiques</strong> de portefeuilles que vous ajoutez, afin de consulter leurs soldes.</li>
+</ul>
+<p>Les noms de comptes, les montants et les transactions ne sont jamais envoyés. <strong>Les phrases de récupération (seed phrases) et les clés privées ne sont jamais demandées.</strong> Comme pour toute requête Internet, ces services reçoivent votre adresse IP et des informations techniques de base, qu’ils traitent conformément à leurs propres politiques de confidentialité.</p>
+<p>Les principaux fournisseurs actuellement utilisés comprennent notamment :</p>
+<div class="tbl"><table>
+<thead><tr><th>Finalité</th><th>Service</th></tr></thead>
+<tbody>
+<tr><td>Taux de change</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>Cours des cryptomonnaies</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>Cours des actions et des ETF</td><td>Yahoo Finance</td></tr>
+<tr><td>Soldes Bitcoin</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, RPC public Solana</td></tr>
+<tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. Notifications et widget</h2>
+<p>Les rappels et les alertes de prix sont créés sur votre appareil ; rien ne nous est envoyé. Leur contenu est masqué sur l’écran de verrouillage. Le widget de l’écran d’accueil n’affiche un montant que si vous activez cette option dans les Paramètres.</p>
+
+<h2>6. Autorisations</h2>
+<ul>
+<li><strong>Internet :</strong> pour les requêtes décrites à la section 4.</li>
+<li><strong>Biométrie :</strong> déverrouillage facultatif par empreinte digitale. Les données d’empreinte restent dans Android et ne sont jamais accessibles à l’application.</li>
+<li><strong>Notifications :</strong> pour les rappels et les alertes de prix, uniquement si vous les activez.</li>
+</ul>
+
+<h2>7. Ce que nous ne faisons pas</h2>
+<ul>
+<li>Aucune inscription ni connexion, aucune publicité, aucun SDK d’analyse ou de suivi.</li>
+<li>Aucune connexion à votre banque, et aucun paiement ni transfert d’argent ou de cryptomonnaies. L’application se contente de suivre et d’afficher vos finances.</li>
+<li>Nous ne vendons ni ne partageons de données personnelles, puisque nous n’en collectons pas.</li>
+</ul>
+
+<h2>8. Suppression de vos données</h2>
+<p>Désinstallez l’application ou effacez son stockage dans les paramètres Android pour tout supprimer de votre téléphone. Vous pouvez également configurer l’application pour qu’elle efface toutes les données après plusieurs saisies erronées du code PIN. Les fichiers de sauvegarde que vous avez exportés restent là où vous les avez enregistrés jusqu’à ce que vous les supprimiez.</p>
+
+<h2>9. Enfants</h2>
+<p>L’application ne s’adresse pas aux enfants de moins de 13 ans et ne traite pas sciemment leurs données.</p>
+
+<h2>10. Modifications</h2>
+<p>Si la présente politique est modifiée, la nouvelle version sera publiée sur cette page avec une nouvelle date d’entrée en vigueur.</p>
+
+<h2>11. Contact</h2>
+<p>Développeur : Max Maersk. Pour toute question relative à la confidentialité ou toute demande concernant vos données, contactez-nous ici : <a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-pt" lang="pt-BR" class="lang">
+<div class="summary"><p><strong>Resumindo:</strong> O FΛVI (FAVI) não exige cadastro e não tem anúncios nem análises de uso. Suas contas, saldos e transações ficam armazenados apenas no seu celular, criptografados. O desenvolvedor não recebe nenhum dos seus dados.</p></div>
+
+<h2>1. Quem somos</h2>
+<p>O <strong>FΛVI</strong> (também escrito <strong>FAVI</strong>, pacote Android <code>app.favi.finance</code>) é um app de controle de finanças pessoais para Android que mostra suas contas bancárias, dinheiro em espécie, carteiras de criptomoedas, ações, dívidas e metas em um só lugar. Ele é desenvolvido e mantido por <strong>Max Maersk</strong>, um desenvolvedor independente (“nós”). Esta política explica o que acontece com suas informações quando você usa o app.</p>
+
+<h2>2. Dados armazenados no seu dispositivo</h2>
+<p>Tudo o que você insere (nomes de contas, saldos, transações, categorias, orçamentos, pagamentos recorrentes, metas, dívidas, endereços de carteiras, configurações) fica armazenado apenas no seu dispositivo.</p>
+<ul>
+<li>Os dados são criptografados com AES-256-GCM. A chave fica guardada no Android Keystore.</li>
+<li>O acesso é protegido por um código PIN; o desbloqueio por impressão digital é opcional.</li>
+<li>O backup em nuvem do Android para os dados do app fica desativado, e as capturas de tela do app são bloqueadas.</li>
+<li>Não operamos nenhum servidor e não temos nenhuma cópia dos seus dados.</li>
+</ul>
+
+<h2>3. Backup e sincronização (opcional)</h2>
+<p>Se você exportar um backup ou ativar a sincronização, o app grava um único arquivo, criptografado com uma senha definida por você, no local que você escolher pelo seletor de arquivos do Android (por exemplo, o armazenamento do celular ou um serviço de nuvem como o Google Drive). Nunca temos acesso a esse arquivo nem à senha. O provedor de armazenamento escolhido por você trata o arquivo de acordo com a própria política de privacidade.</p>
+
+<h2>4. Solicitações pela internet a serviços de terceiros</h2>
+<p>Para exibir taxas de câmbio, cotações e saldos de carteiras, o app envia solicitações diretamente do seu celular para serviços públicos. Essas solicitações contêm apenas:</p>
+<ul>
+<li>códigos de moedas, criptomoedas e ações (por exemplo, <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
+<li>os endereços <strong>públicos</strong> de carteiras que você adicionar, para consultar os saldos.</li>
+</ul>
+<p>Nomes de contas, valores e transações nunca são enviados. <strong>Frases de recuperação (seed phrases) e chaves privadas nunca são solicitadas.</strong> Como em qualquer solicitação pela internet, esses serviços recebem seu endereço IP e informações técnicas básicas, e os tratam de acordo com as próprias políticas de privacidade.</p>
+<p>Os principais provedores usados atualmente incluem (mas não se limitam a):</p>
+<div class="tbl"><table>
+<thead><tr><th>Finalidade</th><th>Serviço</th></tr></thead>
+<tbody>
+<tr><td>Taxas de câmbio</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>Cotações de criptomoedas</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>Cotações de ações e ETFs</td><td>Yahoo Finance</td></tr>
+<tr><td>Saldos de Bitcoin</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, RPC público da Solana</td></tr>
+<tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. Notificações e widget</h2>
+<p>Lembretes e alertas de preço são criados no seu dispositivo; nada é enviado para nós. O conteúdo deles fica oculto na tela de bloqueio. O widget da tela inicial só mostra um valor se você ativar essa opção nas Configurações.</p>
+
+<h2>6. Permissões</h2>
+<ul>
+<li><strong>Internet:</strong> para as solicitações descritas na seção 4.</li>
+<li><strong>Biometria:</strong> desbloqueio opcional por impressão digital. Os dados da digital ficam no Android e nunca ficam disponíveis para o app.</li>
+<li><strong>Notificações:</strong> para lembretes e alertas de preço, somente se você ativá-los.</li>
+</ul>
+
+<h2>7. O que não fazemos</h2>
+<ul>
+<li>Sem cadastro ou login, sem publicidade, sem SDKs de análise ou rastreamento.</li>
+<li>Sem conexão com o seu banco e sem pagamentos ou transferências de dinheiro ou criptomoedas. O app apenas acompanha e exibe suas finanças.</li>
+<li>Não vendemos nem compartilhamos dados pessoais, porque não os coletamos.</li>
+</ul>
+
+<h2>8. Exclusão dos seus dados</h2>
+<p>Desinstale o app ou limpe o armazenamento dele nas configurações do Android para apagar tudo do seu celular. Você também pode configurar o app para apagar todos os dados após várias tentativas incorretas de PIN. Os arquivos de backup que você exportou permanecem onde foram salvos até que você os exclua.</p>
+
+<h2>9. Crianças</h2>
+<p>O app não é direcionado a crianças menores de 13 anos e não trata intencionalmente os dados delas.</p>
+
+<h2>10. Alterações</h2>
+<p>Se esta política for alterada, a nova versão será publicada nesta página com uma nova data de vigência.</p>
+
+<h2>11. Contato</h2>
+<p>Desenvolvedor: Max Maersk. Para dúvidas sobre privacidade ou solicitações relacionadas aos seus dados, fale com a gente aqui: <a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-tr" lang="tr" class="lang">
+<div class="summary"><p><strong>Kısaca:</strong> FΛVI (FAVI) üyelik gerektirmez; reklam ve analiz araçları içermez. Hesaplarınız, bakiyeleriniz ve işlemleriniz yalnızca telefonunuzda, şifrelenmiş olarak saklanır. Geliştirici hiçbir verinizi almaz.</p></div>
+
+<h2>1. Biz kimiz</h2>
+<p><strong>FΛVI</strong> (<strong>FAVI</strong> olarak da yazılır, Android paket adı <code>app.favi.finance</code>), banka hesaplarınızı, nakit paranızı, kripto cüzdanlarınızı, hisse senetlerinizi, borçlarınızı ve hedeflerinizi tek bir yerde gösteren, Android için bir kişisel finans takip uygulamasıdır. Uygulama, bağımsız bir geliştirici olan <strong>Max Maersk</strong> (“biz”) tarafından geliştirilmekte ve sürdürülmektedir. Bu politika, uygulamayı kullandığınızda bilgilerinize ne olduğunu açıklar.</p>
+
+<h2>2. Cihazınızda saklanan veriler</h2>
+<p>Girdiğiniz her şey (hesap adları, bakiyeler, işlemler, kategoriler, bütçeler, düzenli ödemeler, hedefler, borçlar, cüzdan adresleri, ayarlar) yalnızca cihazınızda saklanır.</p>
+<ul>
+<li>Veriler AES-256-GCM ile şifrelenir. Anahtar Android Keystore’da tutulur.</li>
+<li>Erişim bir PIN koduyla korunur; parmak iziyle kilit açma isteğe bağlıdır.</li>
+<li>Uygulama verilerinin Android bulut yedeklemesi kapalıdır ve uygulamada ekran görüntüsü alınması engellenir.</li>
+<li>Hiçbir sunucu işletmiyoruz ve verilerinizin bir kopyası bizde bulunmaz.</li>
+</ul>
+
+<h2>3. Yedekleme ve senkronizasyon (isteğe bağlı)</h2>
+<p>Bir yedek dışa aktarırsanız veya senkronizasyonu açarsanız uygulama, belirlediğiniz bir parolayla şifrelenmiş tek bir dosyayı, Android dosya seçiciyle seçtiğiniz konuma (örneğin telefonunuzun depolama alanına veya Google Drive gibi bir bulut depolama hizmetine) yazar. Bu dosyayı veya parolayı hiçbir zaman görmeyiz. Seçtiğiniz depolama sağlayıcısı dosyayı kendi gizlilik politikası kapsamında işler.</p>
+
+<h2>4. Üçüncü taraf hizmetlere yapılan internet istekleri</h2>
+<p>Döviz kurlarını, fiyatları ve cüzdan bakiyelerini göstermek için uygulama doğrudan telefonunuzdan herkese açık hizmetlere istek gönderir. Bu istekler yalnızca şunları içerir:</p>
+<ul>
+<li>para birimi, kripto para ve hisse senedi kodları (örneğin <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
+<li>bakiyelerini okumak için eklediğiniz <strong>herkese açık</strong> cüzdan adresleri.</li>
+</ul>
+<p>Hesap adları, tutarlar ve işlemler asla gönderilmez. <strong>Kurtarma ifadeleri (seed phrase) ve özel anahtarlar asla istenmez.</strong> Her internet isteğinde olduğu gibi bu hizmetler IP adresinizi ve temel teknik bilgileri alır ve bunları kendi gizlilik politikaları kapsamında işler.</p>
+<p>Şu anda kullanılan başlıca sağlayıcılar şunlardır (bunlarla sınırlı olmamak üzere):</p>
+<div class="tbl"><table>
+<thead><tr><th>Amaç</th><th>Hizmet</th></tr></thead>
+<tbody>
+<tr><td>Döviz kurları</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>Kripto para fiyatları</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>Hisse senedi ve ETF fiyatları</td><td>Yahoo Finance</td></tr>
+<tr><td>Bitcoin bakiyeleri</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, Solana herkese açık RPC</td></tr>
+<tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. Bildirimler ve widget</h2>
+<p>Hatırlatıcılar ve fiyat uyarıları cihazınızda oluşturulur; bize hiçbir şey gönderilmez. İçerikleri kilit ekranında gizlenir. Ana ekran widget’ı yalnızca Ayarlar’da bu seçeneği açarsanız bir tutar gösterir.</p>
+
+<h2>6. İzinler</h2>
+<ul>
+<li><strong>İnternet:</strong> 4. bölümde açıklanan istekler için.</li>
+<li><strong>Biyometri:</strong> isteğe bağlı parmak iziyle kilit açma. Parmak izi verileri Android’de kalır ve uygulama bu verilere hiçbir zaman erişemez.</li>
+<li><strong>Bildirimler:</strong> hatırlatıcılar ve fiyat uyarıları için, yalnızca bunları açarsanız.</li>
+</ul>
+
+<h2>7. Yapmadıklarımız</h2>
+<ul>
+<li>Kayıt veya giriş yok, reklam yok, analiz ya da takip SDK’sı yok.</li>
+<li>Bankanızla bağlantı yok; para veya kripto para ödemesi ya da transferi yok. Uygulama yalnızca finanslarınızı takip eder ve gösterir.</li>
+<li>Kişisel verileri satmayız veya paylaşmayız, çünkü bunları toplamayız.</li>
+</ul>
+
+<h2>8. Verilerinizi silme</h2>
+<p>Telefonunuzdaki her şeyi kaldırmak için uygulamayı silin veya Android ayarlarından uygulamanın depolama alanını temizleyin. Ayrıca uygulamayı, birkaç kez yanlış PIN girildiğinde tüm verileri silecek şekilde ayarlayabilirsiniz. Dışa aktardığınız yedek dosyaları, siz silene kadar kaydettiğiniz yerde kalır.</p>
+
+<h2>9. Çocuklar</h2>
+<p>Uygulama 13 yaşından küçük çocuklara yönelik değildir ve onların verilerini bilerek işlemez.</p>
+
+<h2>10. Değişiklikler</h2>
+<p>Bu politika değişirse yeni sürüm, yeni bir yürürlük tarihiyle bu sayfada yayımlanır.</p>
+
+<h2>11. İletişim</h2>
+<p>Geliştirici: Max Maersk. Gizlilikle ilgili sorularınız veya veri talepleriniz için bize buradan ulaşabilirsiniz: <a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-id" lang="id" class="lang">
+<div class="summary"><p><strong>Singkatnya:</strong> FΛVI (FAVI) tidak memerlukan akun, tanpa iklan, dan tanpa analitik. Rekening, saldo, dan transaksi Anda hanya disimpan di ponsel Anda dalam bentuk terenkripsi. Pengembang tidak menerima data Anda sama sekali.</p></div>
+
+<h2>1. Siapa kami</h2>
+<p><strong>FΛVI</strong> (juga ditulis <strong>FAVI</strong>, paket Android <code>app.favi.finance</code>) adalah aplikasi pencatat keuangan pribadi untuk Android yang menampilkan rekening bank, uang tunai, dompet kripto, saham, utang, dan target Anda di satu tempat. Aplikasi ini dikembangkan dan dikelola oleh <strong>Max Maersk</strong>, seorang pengembang independen (“kami”). Kebijakan ini menjelaskan apa yang terjadi pada informasi Anda saat Anda menggunakan aplikasi.</p>
+
+<h2>2. Data yang disimpan di perangkat Anda</h2>
+<p>Semua yang Anda masukkan (nama rekening, saldo, transaksi, kategori, anggaran, pembayaran berulang, target, utang, alamat dompet, pengaturan) hanya disimpan di perangkat Anda.</p>
+<ul>
+<li>Data dienkripsi dengan AES-256-GCM. Kuncinya disimpan di Android Keystore.</li>
+<li>Akses dilindungi dengan kode PIN; buka kunci dengan sidik jari bersifat opsional.</li>
+<li>Pencadangan cloud Android untuk data aplikasi dinonaktifkan, dan tangkapan layar aplikasi diblokir.</li>
+<li>Kami tidak mengoperasikan server apa pun dan tidak memiliki salinan data Anda.</li>
+</ul>
+
+<h2>3. Pencadangan dan sinkronisasi (opsional)</h2>
+<p>Jika Anda mengekspor cadangan atau mengaktifkan sinkronisasi, aplikasi menulis satu file yang dienkripsi dengan kata sandi yang Anda tetapkan ke lokasi yang Anda pilih melalui pemilih file Android (misalnya penyimpanan ponsel atau layanan cloud seperti Google Drive). Kami tidak pernah melihat file ini maupun kata sandinya. Penyedia penyimpanan yang Anda pilih mengelola file tersebut sesuai kebijakan privasinya sendiri.</p>
+
+<h2>4. Permintaan internet ke layanan pihak ketiga</h2>
+<p>Untuk menampilkan kurs, harga, dan saldo dompet, aplikasi mengirim permintaan langsung dari ponsel Anda ke layanan publik. Permintaan ini hanya berisi:</p>
+<ul>
+<li>kode mata uang, koin, dan saham (misalnya <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
+<li>alamat dompet <strong>publik</strong> yang Anda tambahkan, untuk membaca saldonya.</li>
+</ul>
+<p>Nama rekening, jumlah, dan transaksi tidak pernah dikirim. <strong>Frasa pemulihan (seed phrase) dan kunci privat tidak pernah diminta.</strong> Seperti permintaan internet pada umumnya, layanan ini menerima alamat IP Anda dan informasi teknis dasar, lalu memprosesnya sesuai kebijakan privasi masing-masing.</p>
+<p>Penyedia utama yang saat ini digunakan antara lain (tetapi tidak terbatas pada):</p>
+<div class="tbl"><table>
+<thead><tr><th>Tujuan</th><th>Layanan</th></tr></thead>
+<tbody>
+<tr><td>Kurs mata uang</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>Harga kripto</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>Harga saham dan ETF</td><td>Yahoo Finance</td></tr>
+<tr><td>Saldo Bitcoin</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, RPC publik Solana</td></tr>
+<tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. Notifikasi dan widget</h2>
+<p>Pengingat dan peringatan harga dibuat di perangkat Anda; tidak ada yang dikirim kepada kami. Isinya disembunyikan di layar kunci. Widget layar utama hanya menampilkan jumlah jika Anda mengaktifkannya di Pengaturan.</p>
+
+<h2>6. Izin</h2>
+<ul>
+<li><strong>Internet:</strong> untuk permintaan yang dijelaskan di bagian 4.</li>
+<li><strong>Biometrik:</strong> buka kunci dengan sidik jari (opsional). Data sidik jari tetap berada di Android dan tidak pernah dapat diakses oleh aplikasi.</li>
+<li><strong>Notifikasi:</strong> untuk pengingat dan peringatan harga, hanya jika Anda mengaktifkannya.</li>
+</ul>
+
+<h2>7. Yang tidak kami lakukan</h2>
+<ul>
+<li>Tanpa pendaftaran atau login, tanpa iklan, tanpa SDK analitik atau pelacakan.</li>
+<li>Tidak terhubung ke bank Anda, dan tidak ada pembayaran atau transfer uang maupun kripto. Aplikasi hanya mencatat dan menampilkan keuangan Anda.</li>
+<li>Kami tidak menjual atau membagikan data pribadi, karena kami tidak mengumpulkannya.</li>
+</ul>
+
+<h2>8. Menghapus data Anda</h2>
+<p>Hapus aplikasi, atau bersihkan penyimpanannya di pengaturan Android, untuk menghapus semuanya dari ponsel Anda. Anda juga dapat mengatur aplikasi agar menghapus semua data setelah beberapa kali salah memasukkan PIN. File cadangan yang telah Anda ekspor tetap berada di tempat Anda menyimpannya sampai Anda menghapusnya.</p>
+
+<h2>9. Anak-anak</h2>
+<p>Aplikasi ini tidak ditujukan untuk anak-anak di bawah 13 tahun dan tidak dengan sengaja memproses data mereka.</p>
+
+<h2>10. Perubahan</h2>
+<p>Jika kebijakan ini berubah, versi barunya akan dipublikasikan di halaman ini dengan tanggal berlaku yang baru.</p>
+
+<h2>11. Kontak</h2>
+<p>Pengembang: Max Maersk. Untuk pertanyaan seputar privasi atau permintaan terkait data, hubungi kami di sini: <a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-ja" lang="ja" class="lang">
+<div class="summary"><p><strong>概要：</strong>FΛVI（FAVI）には、アカウント、広告、アナリティクスは一切ありません。口座、残高、取引はお使いのスマートフォンにのみ暗号化して保存されます。開発者がお客様のデータを受け取ることはありません。</p></div>
+
+<h2>1. 運営者について</h2>
+<p><strong>FΛVI</strong>（<strong>FAVI</strong> とも表記。Android パッケージ <code>app.favi.finance</code>）は、銀行口座、現金、暗号資産ウォレット、株式、借入金、目標を一か所で確認できる Android 向けの個人資産管理アプリです。本アプリは、独立系開発者である <strong>Max Maersk</strong>（以下「当方」）が開発・運営しています。本ポリシーでは、お客様が本アプリをご利用になる際に、お客様の情報がどのように取り扱われるかを説明します。</p>
+
+<h2>2. 端末に保存されるデータ</h2>
+<p>お客様が入力したすべての情報（口座名、残高、取引、カテゴリ、予算、定期的な支払い、目標、借入金、ウォレットアドレス、設定）は、お客様の端末にのみ保存されます。</p>
+<ul>
+<li>データは AES-256-GCM で暗号化されます。暗号鍵は Android Keystore に保管されます。</li>
+<li>アクセスは PIN コードで保護されます。指紋認証によるロック解除は任意です。</li>
+<li>本アプリのデータの Android クラウドバックアップは無効になっており、アプリ画面のスクリーンショットはブロックされます。</li>
+<li>当方はサーバーを運用しておらず、お客様のデータのコピーも保有していません。</li>
+</ul>
+
+<h2>3. バックアップと同期（任意）</h2>
+<p>バックアップをエクスポートするか同期をオンにすると、本アプリはお客様が設定したパスワードで暗号化したファイルを 1 つ、Android のファイル選択画面でお客様が選んだ保存先（例：スマートフォンのストレージや、Google Drive などのクラウドストレージ）に書き込みます。当方がこのファイルやパスワードを目にすることはありません。お客様が選択したストレージ事業者は、各事業者のプライバシーポリシーに従ってこのファイルを取り扱います。</p>
+
+<h2>4. 第三者サービスへのインターネット通信</h2>
+<p>為替レート、価格、ウォレット残高を表示するため、本アプリはお客様のスマートフォンから公開サービスへ直接リクエストを送信します。これらのリクエストに含まれるのは、以下の情報のみです。</p>
+<ul>
+<li>通貨、暗号資産、株式のコード（例：<code>EUR</code>、<code>BTC</code>、<code>AAPL</code>）</li>
+<li>残高を取得するためにお客様が追加した<strong>公開</strong>ウォレットアドレス</li>
+</ul>
+<p>口座名、金額、取引が送信されることは一切ありません。<strong>シードフレーズや秘密鍵の入力を求めることも一切ありません。</strong>通常のインターネット通信と同様に、これらのサービスはお客様の IP アドレスと基本的な技術情報を受け取り、各事業者のプライバシーポリシーに従って処理します。</p>
+<p>現在利用している主な事業者は以下のとおりです（ただし、これらに限りません）。</p>
+<div class="tbl"><table>
+<thead><tr><th>目的</th><th>サービス</th></tr></thead>
+<tbody>
+<tr><td>為替レート</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>暗号資産の価格</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>株式・ETF の価格</td><td>Yahoo Finance</td></tr>
+<tr><td>ビットコインの残高</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum、BNB Chain、Polygon、Arbitrum、Base、Optimism、Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON、TON、Solana</td><td>TronGrid, tonapi.io, Solana public RPC</td></tr>
+<tr><td>Litecoin、Dogecoin、XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. 通知とウィジェット</h2>
+<p>リマインダーと価格アラートはお客様の端末上で作成され、当方に送信されることはありません。通知の内容はロック画面では表示されません。ホーム画面のウィジェットは、お客様が設定でこの機能をオンにした場合にのみ金額を表示します。</p>
+
+<h2>6. 権限</h2>
+<ul>
+<li><strong>インターネット：</strong>第 4 項に記載した通信を行うために使用します。</li>
+<li><strong>生体認証：</strong>任意の指紋認証によるロック解除に使用します。指紋データは Android 内に保持され、本アプリがアクセスすることはできません。</li>
+<li><strong>通知：</strong>リマインダーと価格アラートのために使用します（お客様がオンにした場合のみ）。</li>
+</ul>
+
+<h2>7. 当方が行わないこと</h2>
+<ul>
+<li>アカウント登録やログインは不要で、広告、アナリティクスやトラッキング用の SDK も一切使用していません。</li>
+<li>銀行との接続は行わず、金銭や暗号資産の支払い・送金も行いません。本アプリはお客様の資産を記録・表示するだけです。</li>
+<li>当方は個人データを収集しないため、個人データを販売または共有することもありません。</li>
+</ul>
+
+<h2>8. データの削除</h2>
+<p>スマートフォンからすべてのデータを削除するには、本アプリをアンインストールするか、Android の設定でアプリのストレージを消去してください。また、PIN を複数回誤って入力した場合にすべてのデータを消去するよう、本アプリを設定することもできます。エクスポートしたバックアップファイルは、お客様が削除するまで保存先に残ります。</p>
+
+<h2>9. お子様について</h2>
+<p>本アプリは 13 歳未満のお子様を対象としておらず、お子様のデータを故意に処理することはありません。</p>
+
+<h2>10. 本ポリシーの変更</h2>
+<p>本ポリシーを変更する場合は、新しい施行日を記載した新しいバージョンを本ページに掲載します。</p>
+
+<h2>11. お問い合わせ</h2>
+<p>開発者：Max Maersk。プライバシーに関するご質問やデータに関するご請求は、こちらまでご連絡ください：<a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-ko" lang="ko" class="lang">
+<div class="summary"><p><strong>요약:</strong> FΛVI(FAVI)에는 계정, 광고, 분석 기능이 없습니다. 사용자의 계좌, 잔액, 거래 내역은 암호화되어 사용자의 휴대전화에만 저장됩니다. 개발자는 사용자의 데이터를 일절 받지 않습니다.</p></div>
+
+<h2>1. 개발자 소개</h2>
+<p><strong>FΛVI</strong>(<strong>FAVI</strong>로도 표기, Android 패키지 <code>app.favi.finance</code>)는 은행 계좌, 현금, 암호화폐 지갑, 주식, 부채, 목표를 한곳에서 보여 주는 Android용 개인 자산 관리 앱입니다. 이 앱은 독립 개발자인 <strong>Max Maersk</strong>(이하 "당사")가 개발하고 관리합니다. 본 방침은 사용자가 앱을 이용할 때 사용자의 정보가 어떻게 처리되는지 설명합니다.</p>
+
+<h2>2. 기기에 저장되는 데이터</h2>
+<p>사용자가 입력하는 모든 정보(계좌 이름, 잔액, 거래 내역, 카테고리, 예산, 정기 결제, 목표, 부채, 지갑 주소, 설정)는 사용자의 기기에만 저장됩니다.</p>
+<ul>
+<li>데이터는 AES-256-GCM으로 암호화됩니다. 암호화 키는 Android Keystore에 보관됩니다.</li>
+<li>앱 접근은 PIN 코드로 보호되며, 지문 잠금 해제는 선택 사항입니다.</li>
+<li>앱 데이터의 Android 클라우드 백업은 꺼져 있으며, 앱 화면의 스크린샷은 차단됩니다.</li>
+<li>당사는 서버를 운영하지 않으며 사용자 데이터의 사본을 보유하지 않습니다.</li>
+</ul>
+
+<h2>3. 백업 및 동기화(선택 사항)</h2>
+<p>백업을 내보내거나 동기화를 켜면, 앱은 사용자가 설정한 비밀번호로 암호화한 파일 하나를 Android 파일 선택기에서 사용자가 선택한 위치(예: 휴대전화 저장공간 또는 Google Drive와 같은 클라우드 드라이브)에 저장합니다. 당사는 이 파일이나 비밀번호를 절대 볼 수 없습니다. 사용자가 선택한 저장소 제공업체는 자체 개인정보처리방침에 따라 해당 파일을 처리합니다.</p>
+
+<h2>4. 제3자 서비스에 대한 인터넷 요청</h2>
+<p>환율, 시세, 지갑 잔액을 표시하기 위해 앱은 사용자의 휴대전화에서 공개 서비스로 직접 요청을 보냅니다. 이러한 요청에는 다음 정보만 포함됩니다.</p>
+<ul>
+<li>통화, 코인, 주식 코드(예: <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>)</li>
+<li>잔액을 조회하기 위해 사용자가 추가한 <strong>공개</strong> 지갑 주소</li>
+</ul>
+<p>계좌 이름, 금액, 거래 내역은 절대 전송되지 않습니다. <strong>시드 문구와 개인 키는 절대 요청하지 않습니다.</strong> 다른 모든 인터넷 요청과 마찬가지로, 이러한 서비스는 사용자의 IP 주소와 기본적인 기술 정보를 수신하며 자체 개인정보처리방침에 따라 이를 처리합니다.</p>
+<p>현재 사용 중인 주요 제공업체는 다음과 같습니다(이에 국한되지 않습니다).</p>
+<div class="tbl"><table>
+<thead><tr><th>목적</th><th>서비스</th></tr></thead>
+<tbody>
+<tr><td>환율</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>암호화폐 시세</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>주식 및 ETF 시세</td><td>Yahoo Finance</td></tr>
+<tr><td>비트코인 잔액</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, Solana public RPC</td></tr>
+<tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. 알림 및 위젯</h2>
+<p>리마인더와 가격 알림은 사용자의 기기에서 생성되며, 당사로 전송되는 정보는 없습니다. 알림 내용은 잠금 화면에서 숨겨집니다. 홈 화면 위젯은 사용자가 설정에서 이 옵션을 켠 경우에만 금액을 표시합니다.</p>
+
+<h2>6. 권한</h2>
+<ul>
+<li><strong>인터넷:</strong> 4항에 설명된 요청을 보내는 데 사용합니다.</li>
+<li><strong>생체 인식:</strong> 선택 사항인 지문 잠금 해제에 사용합니다. 지문 데이터는 Android 내에 보관되며 앱에서는 절대 접근할 수 없습니다.</li>
+<li><strong>알림:</strong> 리마인더와 가격 알림에 사용하며, 사용자가 켠 경우에만 사용합니다.</li>
+</ul>
+
+<h2>7. 당사가 하지 않는 일</h2>
+<ul>
+<li>회원 가입이나 로그인이 없으며, 광고, 분석 또는 추적 SDK를 사용하지 않습니다.</li>
+<li>은행과 연결하지 않으며, 돈이나 암호화폐의 결제 또는 송금을 하지 않습니다. 앱은 사용자의 재무 상황을 기록하고 표시하는 기능만 합니다.</li>
+<li>당사는 개인 데이터를 수집하지 않으므로 이를 판매하거나 공유하지 않습니다.</li>
+</ul>
+
+<h2>8. 데이터 삭제</h2>
+<p>앱을 삭제하거나 Android 설정에서 앱 저장공간을 지우면 휴대전화에서 모든 데이터가 삭제됩니다. 또한 PIN을 여러 번 잘못 입력하면 모든 데이터가 삭제되도록 앱을 설정할 수 있습니다. 내보낸 백업 파일은 사용자가 삭제할 때까지 저장한 위치에 남아 있습니다.</p>
+
+<h2>9. 아동</h2>
+<p>이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 아동의 데이터를 고의로 처리하지 않습니다.</p>
+
+<h2>10. 변경 사항</h2>
+<p>본 방침이 변경되는 경우, 새로운 시행일과 함께 변경된 버전을 이 페이지에 게시합니다.</p>
+
+<h2>11. 문의</h2>
+<p>개발자: Max Maersk. 개인정보 관련 문의나 데이터 관련 요청은 다음으로 연락해 주십시오: <a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-zh" lang="zh-Hans" class="lang">
+<div class="summary"><p><strong>简而言之：</strong>FΛVI（FAVI）没有账户、没有广告，也没有分析统计。您的账户、余额和交易记录经加密后仅存储在您的手机上。开发者不会收到您的任何数据。</p></div>
+
+<h2>1. 关于我们</h2>
+<p><strong>FΛVI</strong>（也写作 <strong>FAVI</strong>，Android 软件包名 <code>app.favi.finance</code>）是一款 Android 个人理财记账应用，可在一处集中显示您的银行账户、现金、加密货币钱包、股票、债务和目标。本应用由独立开发者 <strong>Max Maersk</strong>（以下简称“我们”）开发和维护。本政策说明您使用本应用时，您的信息将如何处理。</p>
+
+<h2>2. 存储在您设备上的数据</h2>
+<p>您输入的所有内容（账户名称、余额、交易记录、分类、预算、定期付款、目标、债务、钱包地址、设置）仅存储在您的设备上。</p>
+<ul>
+<li>数据使用 AES-256-GCM 加密，密钥保存在 Android Keystore 中。</li>
+<li>访问受 PIN 码保护；指纹解锁为可选功能。</li>
+<li>本应用数据的 Android 云备份已关闭，且应用界面禁止截屏。</li>
+<li>我们不运营任何服务器，也不持有您数据的任何副本。</li>
+</ul>
+
+<h2>3. 备份与同步（可选）</h2>
+<p>如果您导出备份或开启同步，本应用会将一个使用您所设密码加密的文件写入您通过 Android 文件选择器选定的位置（例如手机存储或 Google Drive 等云盘）。我们永远不会看到该文件或密码。您选择的存储服务提供商将依据其自身的隐私政策处理该文件。</p>
+
+<h2>4. 向第三方服务发送的网络请求</h2>
+<p>为显示汇率、价格和钱包余额，本应用会直接从您的手机向公共服务发送请求。这些请求仅包含：</p>
+<ul>
+<li>货币、加密货币和股票代码（例如 <code>EUR</code>、<code>BTC</code>、<code>AAPL</code>）；</li>
+<li>您添加的<strong>公开</strong>钱包地址，用于读取其余额。</li>
+</ul>
+<p>账户名称、金额和交易记录绝不会被发送。<strong>我们绝不会索要助记词或私钥。</strong>与任何网络请求一样，这些服务会收到您的 IP 地址和基本技术信息，并依据其自身的隐私政策进行处理。</p>
+<p>目前使用的主要服务提供商包括（但不限于）：</p>
+<div class="tbl"><table>
+<thead><tr><th>用途</th><th>服务</th></tr></thead>
+<tbody>
+<tr><td>汇率</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>加密货币价格</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>股票和 ETF 价格</td><td>Yahoo Finance</td></tr>
+<tr><td>比特币余额</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum、BNB Chain、Polygon、Arbitrum、Base、Optimism、Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON、TON、Solana</td><td>TronGrid, tonapi.io, Solana public RPC</td></tr>
+<tr><td>Litecoin、Dogecoin、XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. 通知与小组件</h2>
+<p>提醒和价格预警均在您的设备上创建，不会向我们发送任何内容。通知内容在锁屏上隐藏。主屏幕小组件仅在您于设置中开启此功能后才会显示金额。</p>
+
+<h2>6. 权限</h2>
+<ul>
+<li><strong>网络：</strong>用于第 4 节所述的请求。</li>
+<li><strong>生物识别：</strong>用于可选的指纹解锁。指纹数据保留在 Android 系统中，本应用永远无法获取。</li>
+<li><strong>通知：</strong>用于提醒和价格预警，仅在您开启后使用。</li>
+</ul>
+
+<h2>7. 我们不做的事</h2>
+<ul>
+<li>无需注册或登录，没有广告，也不含任何分析或跟踪 SDK。</li>
+<li>不连接您的银行，也不进行任何资金或加密货币的支付或转账。本应用仅用于记录和显示您的财务状况。</li>
+<li>我们不出售或共享个人数据，因为我们根本不收集这些数据。</li>
+</ul>
+
+<h2>8. 删除您的数据</h2>
+<p>卸载本应用，或在 Android 设置中清除其存储，即可从手机中删除所有数据。您还可以将本应用设置为在多次输错 PIN 码后清除所有数据。您导出的备份文件会保留在您保存的位置，直到您将其删除。</p>
+
+<h2>9. 儿童</h2>
+<p>本应用并非面向 13 岁以下儿童，也不会在知情的情况下处理其数据。</p>
+
+<h2>10. 政策变更</h2>
+<p>如本政策发生变更，新版本将连同新的生效日期发布在本页面上。</p>
+
+<h2>11. 联系我们</h2>
+<p>开发者：Max Maersk。如有隐私问题或数据请求，请通过以下方式联系我们：<a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<section hidden id="lang-zh-TW" lang="zh-Hant" class="lang">
+<div class="summary"><p><strong>簡單來說：</strong>FΛVI（FAVI）沒有帳號、沒有廣告，也沒有數據分析。您的帳戶、餘額和交易紀錄經加密後僅儲存在您的手機上。開發者不會收到您的任何資料。</p></div>
+
+<h2>1. 關於我們</h2>
+<p><strong>FΛVI</strong>（亦寫作 <strong>FAVI</strong>，Android 套件名稱 <code>app.favi.finance</code>）是一款 Android 個人理財記帳應用程式，可在同一處顯示您的銀行帳戶、現金、加密貨幣錢包、股票、債務與目標。本應用程式由獨立開發者 <strong>Max Maersk</strong>（以下稱「我們」）開發及維護。本政策說明您使用本應用程式時，您的資訊將如何處理。</p>
+
+<h2>2. 儲存在您裝置上的資料</h2>
+<p>您輸入的所有內容（帳戶名稱、餘額、交易紀錄、類別、預算、定期付款、目標、債務、錢包地址、設定）僅儲存在您的裝置上。</p>
+<ul>
+<li>資料使用 AES-256-GCM 加密，金鑰保存在 Android Keystore 中。</li>
+<li>存取受 PIN 碼保護；指紋解鎖為選用功能。</li>
+<li>本應用程式資料的 Android 雲端備份已關閉，且應用程式畫面禁止螢幕截圖。</li>
+<li>我們未營運任何伺服器，也未持有您資料的任何副本。</li>
+</ul>
+
+<h2>3. 備份與同步（選用）</h2>
+<p>若您匯出備份或開啟同步，本應用程式會將一個以您所設定密碼加密的檔案，寫入您透過 Android 檔案選擇器選定的位置（例如手機儲存空間或 Google Drive 等雲端硬碟）。我們絕不會看到該檔案或密碼。您選擇的儲存服務供應商將依其自身的隱私權政策處理該檔案。</p>
+
+<h2>4. 向第三方服務發出的網路請求</h2>
+<p>為顯示匯率、價格及錢包餘額，本應用程式會直接從您的手機向公開服務發出請求。這些請求僅包含：</p>
+<ul>
+<li>貨幣、加密貨幣及股票代碼（例如 <code>EUR</code>、<code>BTC</code>、<code>AAPL</code>）；</li>
+<li>您新增的<strong>公開</strong>錢包地址，用於讀取其餘額。</li>
+</ul>
+<p>帳戶名稱、金額及交易紀錄絕不會被傳送。<strong>我們絕不會要求您提供助記詞或私鑰。</strong>如同任何網路請求，這些服務會收到您的 IP 位址及基本技術資訊，並依其自身的隱私權政策進行處理。</p>
+<p>目前使用的主要服務供應商包括（但不限於）：</p>
+<div class="tbl"><table>
+<thead><tr><th>用途</th><th>服務</th></tr></thead>
+<tbody>
+<tr><td>匯率</td><td>open.er-api.com, api.frankfurter.dev</td></tr>
+<tr><td>加密貨幣價格</td><td>CoinGecko, DefiLlama</td></tr>
+<tr><td>股票及 ETF 價格</td><td>Yahoo Finance</td></tr>
+<tr><td>比特幣餘額</td><td>mempool.space, blockchain.info</td></tr>
+<tr><td>Ethereum、BNB Chain、Polygon、Arbitrum、Base、Optimism、Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
+<tr><td>TRON、TON、Solana</td><td>TronGrid, tonapi.io, Solana public RPC</td></tr>
+<tr><td>Litecoin、Dogecoin、XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+</tbody></table></div>
+
+<h2>5. 通知與小工具</h2>
+<p>提醒與價格警示皆在您的裝置上建立，不會傳送任何內容給我們。通知內容在鎖定畫面上會隱藏。主畫面小工具僅在您於「設定」中開啟此功能後才會顯示金額。</p>
+
+<h2>6. 權限</h2>
+<ul>
+<li><strong>網路：</strong>用於第 4 節所述的請求。</li>
+<li><strong>生物辨識：</strong>用於選用的指紋解鎖。指紋資料保留在 Android 系統中，本應用程式永遠無法取得。</li>
+<li><strong>通知：</strong>用於提醒與價格警示，僅在您開啟後使用。</li>
+</ul>
+
+<h2>7. 我們不做的事</h2>
+<ul>
+<li>無須註冊或登入，沒有廣告，也不含任何數據分析或追蹤 SDK。</li>
+<li>不會連結您的銀行，也不會進行任何金錢或加密貨幣的付款或轉帳。本應用程式僅用於記錄及顯示您的財務狀況。</li>
+<li>我們不會出售或分享個人資料，因為我們根本不蒐集這些資料。</li>
+</ul>
+
+<h2>8. 刪除您的資料</h2>
+<p>解除安裝本應用程式，或在 Android 設定中清除其儲存空間，即可從手機中移除所有資料。您也可以將本應用程式設定為在多次輸入錯誤 PIN 碼後清除所有資料。您匯出的備份檔案會保留在您儲存的位置，直到您將其刪除為止。</p>
+
+<h2>9. 兒童</h2>
+<p>本應用程式並非以未滿 13 歲的兒童為對象，也不會在知情的情況下處理其資料。</p>
+
+<h2>10. 政策變更</h2>
+<p>若本政策有所變更，新版本將連同新的生效日期公布於本頁面。</p>
+
+<h2>11. 聯絡我們</h2>
+<p>開發者：Max Maersk。如有隱私權問題或資料相關請求，請透過以下方式與我們聯絡：<a href="mailto:4angmax@gmail.com">4angmax@gmail.com</a></p>
+</section>
+<footer><span>© 2026 Max Maersk · FΛVI (FAVI)</span><span>app.favi.finance</span></footer>
+</div>
+<script>
+(function(){
+var T={"en": "Privacy Policy", "ru": "Политика конфиденциальности", "uk": "Політика конфіденційності", "pl": "Polityka prywatności", "de": "Datenschutzerklärung", "es": "Política de privacidad", "fr": "Politique de confidentialité", "pt": "Política de privacidade", "tr": "Gizlilik Politikası", "id": "Kebijakan Privasi", "ja": "プライバシーポリシー", "ko": "개인정보 처리방침", "zh": "隐私政策", "zh-TW": "隱私權政策"},E={"en": "Effective 17 October 2026", "ru": "Действует с 17 октября 2026", "uk": "Діє з 17 жовтня 2026", "pl": "Obowiązuje od 17 października 2026", "de": "Gültig ab 17. Oktober 2026", "es": "Vigente desde el 17 de octubre de 2026", "fr": "En vigueur depuis le 17 octobre 2026", "pt": "Em vigor desde 17 de outubro de 2026", "tr": "Yürürlük tarihi: 17 Ekim 2026", "id": "Berlaku sejak 17 Oktober 2026", "ja": "施行日：2026年10月17日", "ko": "시행일: 2026년 10월 17일", "zh": "生效日期：2026年10月17日", "zh-TW": "生效日期：2026年10月17日"};
+var sel=document.getElementById('lang');
+function show(l){
+ if(!T[l])l='en';
+ document.querySelectorAll('section.lang').forEach(function(s){s.hidden=s.id!=='lang-'+l;});
+ document.getElementById('h1').textContent=T[l];
+ document.getElementById('eff').textContent=E[l];
+ document.documentElement.lang=l;sel.value=l;
+}
+sel.addEventListener('change',function(){show(sel.value);try{var u=new URL(location.href);u.searchParams.set('lang',sel.value);history.replaceState(null,'',u);}catch(e){}});
+var q=new URLSearchParams(location.search).get('lang');
+if(q&&T[q]){show(q);return;}
+var n=(navigator.language||'en');
+if(/^zh-(TW|HK|MO|Hant)/i.test(n))show('zh-TW');
+else{n=n.slice(0,2).toLowerCase();if(n==='in')n='id';show(T[n]?n:'en');}
+})();
+</script>
+</body>
+</html>
