@@ -79,7 +79,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <p>To show exchange rates, prices and wallet balances, the app sends requests directly from your phone to public services. These requests contain only:</p>
 <ul>
 <li>currency, coin and stock codes (for example <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
-<li>the <strong>public</strong> wallet addresses you add, to read their balances.</li>
+<li>the <strong>public</strong> wallet addresses you add, to read their balances;</li>
+<li>the website domain of a bank you added (for example <code>mbank.pl</code>), only if you turn on bank icons in Settings (off by default), to download its icon.</li>
 </ul>
 <p>Account names, amounts and transactions are never sent. <strong>Seed phrases and private keys are never requested.</strong> Like any internet request, these services receive your IP address and basic technical information and process it under their own privacy policies.</p>
 <p>The main providers currently used include (but are not limited to):</p>
@@ -93,6 +94,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, Solana public RPC</td></tr>
 <tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>Bank icons (optional, off by default)</td><td>the bank's own website, DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. Notifications and widget</h2>
@@ -146,7 +148,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <p>Чтобы показывать курсы валют, цены и балансы кошельков, приложение отправляет запросы напрямую с вашего телефона к общедоступным сервисам. Эти запросы содержат только:</p>
 <ul>
 <li>коды валют, монет и акций (например, <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
-<li>добавленные вами <strong>публичные</strong> адреса кошельков — чтобы получить их балансы.</li>
+<li>добавленные вами <strong>публичные</strong> адреса кошельков — чтобы получить их балансы;</li>
+<li>домен сайта добавленного вами банка (например, <code>mbank.pl</code>) — только если вы включите иконки банков в настройках (по умолчанию выключено), чтобы загрузить его иконку.</li>
 </ul>
 <p>Названия счетов, суммы и операции никогда не передаются. <strong>Сид-фразы и закрытые ключи никогда не запрашиваются.</strong> Как и при любом интернет-запросе, эти сервисы получают ваш IP-адрес и базовую техническую информацию и обрабатывают их в соответствии со своими политиками конфиденциальности.</p>
 <p>В настоящее время используются, в частности, следующие основные поставщики:</p>
@@ -160,6 +163,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, публичный RPC Solana</td></tr>
 <tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>Иконки банков (по желанию, по умолчанию выключено)</td><td>собственный сайт банка, DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. Уведомления и виджет</h2>
@@ -213,7 +217,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <p>Щоб показувати курси валют, ціни та баланси гаманців, застосунок надсилає запити безпосередньо з вашого телефона до загальнодоступних сервісів. Ці запити містять лише:</p>
 <ul>
 <li>коди валют, монет і акцій (наприклад, <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
-<li>додані вами <strong>публічні</strong> адреси гаманців — щоб отримати їхні баланси.</li>
+<li>додані вами <strong>публічні</strong> адреси гаманців — щоб отримати їхні баланси;</li>
+<li>домен сайту доданого вами банку (наприклад, <code>mbank.pl</code>) — лише якщо ви ввімкнете іконки банків у налаштуваннях (за замовчуванням вимкнено), щоб завантажити його іконку.</li>
 </ul>
 <p>Назви рахунків, суми та операції ніколи не надсилаються. <strong>Сід-фрази та приватні ключі ніколи не запитуються.</strong> Як і під час будь-якого інтернет-запиту, ці сервіси отримують вашу IP-адресу та базову технічну інформацію й обробляють їх відповідно до власних політик конфіденційності.</p>
 <p>Наразі використовуються, зокрема, такі основні постачальники:</p>
@@ -227,6 +232,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, публічний RPC Solana</td></tr>
 <tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>Іконки банків (за бажанням, за замовчуванням вимкнено)</td><td>власний сайт банку, DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. Сповіщення та віджет</h2>
@@ -280,7 +286,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <p>Aby wyświetlać kursy walut, ceny i salda portfeli, aplikacja wysyła zapytania bezpośrednio z Twojego telefonu do publicznie dostępnych usług. Zapytania te zawierają wyłącznie:</p>
 <ul>
 <li>kody walut, kryptowalut i akcji (np. <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
-<li>dodane przez Ciebie <strong>publiczne</strong> adresy portfeli – w celu odczytania ich sald.</li>
+<li>dodane przez Ciebie <strong>publiczne</strong> adresy portfeli – w celu odczytania ich sald;</li>
+<li>domenę strony internetowej dodanego przez Ciebie banku (np. <code>mbank.pl</code>) – tylko jeśli włączysz ikony banków w Ustawieniach (domyślnie wyłączone), w celu pobrania jego ikony.</li>
 </ul>
 <p>Nazwy rachunków, kwoty i transakcje nigdy nie są przesyłane. <strong>Aplikacja nigdy nie prosi o frazy seed ani klucze prywatne.</strong> Jak w przypadku każdego zapytania internetowego, usługi te otrzymują Twój adres IP i podstawowe informacje techniczne oraz przetwarzają je zgodnie z własnymi politykami prywatności.</p>
 <p>Obecnie korzystamy m.in. z następujących głównych dostawców:</p>
@@ -294,6 +301,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, publiczne RPC Solana</td></tr>
 <tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>Ikony banków (opcjonalnie, domyślnie wyłączone)</td><td>własna strona internetowa banku, DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. Powiadomienia i widżet</h2>
@@ -347,7 +355,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <p>Um Wechselkurse, Kurse und Wallet-Guthaben anzuzeigen, sendet die App Anfragen direkt von Ihrem Smartphone an öffentliche Dienste. Diese Anfragen enthalten ausschließlich:</p>
 <ul>
 <li>Währungs-, Coin- und Aktienkürzel (zum Beispiel <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
-<li>die von Ihnen hinzugefügten <strong>öffentlichen</strong> Wallet-Adressen, um deren Guthaben abzurufen.</li>
+<li>die von Ihnen hinzugefügten <strong>öffentlichen</strong> Wallet-Adressen, um deren Guthaben abzurufen;</li>
+<li>die Website-Domain einer von Ihnen hinzugefügten Bank (zum Beispiel <code>mbank.pl</code>), nur wenn Sie Bank-Icons in den Einstellungen aktivieren (standardmäßig deaktiviert), um deren Icon herunterzuladen.</li>
 </ul>
 <p>Kontonamen, Beträge und Transaktionen werden niemals übermittelt. <strong>Seed-Phrasen und private Schlüssel werden niemals abgefragt.</strong> Wie bei jeder Internetanfrage erhalten diese Dienste Ihre IP-Adresse und grundlegende technische Informationen und verarbeiten diese gemäß ihren eigenen Datenschutzerklärungen.</p>
 <p>Zu den derzeit genutzten Hauptanbietern gehören unter anderem:</p>
@@ -361,6 +370,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, öffentlicher Solana-RPC</td></tr>
 <tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>Bank-Icons (optional, standardmäßig deaktiviert)</td><td>die eigene Website der Bank, DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. Benachrichtigungen und Widget</h2>
@@ -414,7 +424,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <p>Para mostrar tipos de cambio, precios y saldos de monederos, la app envía solicitudes directamente desde tu teléfono a servicios públicos. Estas solicitudes contienen únicamente:</p>
 <ul>
 <li>códigos de divisas, criptomonedas y acciones (por ejemplo, <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
-<li>las direcciones <strong>públicas</strong> de monederos que añadas, para consultar sus saldos.</li>
+<li>las direcciones <strong>públicas</strong> de monederos que añadas, para consultar sus saldos;</li>
+<li>el dominio del sitio web de un banco que añadas (por ejemplo, <code>mbank.pl</code>), solo si activas los iconos de bancos en Ajustes (desactivado por defecto), para descargar su icono.</li>
 </ul>
 <p>Nunca se envían nombres de cuentas, importes ni transacciones. <strong>Nunca se solicitan frases semilla ni claves privadas.</strong> Como ocurre con cualquier solicitud por internet, estos servicios reciben tu dirección IP e información técnica básica, y la tratan conforme a sus propias políticas de privacidad.</p>
 <p>Entre los principales proveedores que se utilizan actualmente se encuentran (sin limitarse a ellos):</p>
@@ -428,6 +439,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, RPC público de Solana</td></tr>
 <tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>Iconos de bancos (opcional, desactivado por defecto)</td><td>el sitio web del propio banco, DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. Notificaciones y widget</h2>
@@ -481,7 +493,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <p>Pour afficher les taux de change, les cours et les soldes des portefeuilles, l’application envoie des requêtes directement depuis votre téléphone vers des services publics. Ces requêtes contiennent uniquement :</p>
 <ul>
 <li>les codes de devises, de cryptomonnaies et d’actions (par exemple <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>) ;</li>
-<li>les adresses <strong>publiques</strong> de portefeuilles que vous ajoutez, afin de consulter leurs soldes.</li>
+<li>les adresses <strong>publiques</strong> de portefeuilles que vous ajoutez, afin de consulter leurs soldes ;</li>
+<li>le domaine du site web d’une banque que vous ajoutez (par exemple <code>mbank.pl</code>), uniquement si vous activez les icônes des banques dans les Paramètres (désactivé par défaut), afin de télécharger son icône.</li>
 </ul>
 <p>Les noms de comptes, les montants et les transactions ne sont jamais envoyés. <strong>Les phrases de récupération (seed phrases) et les clés privées ne sont jamais demandées.</strong> Comme pour toute requête Internet, ces services reçoivent votre adresse IP et des informations techniques de base, qu’ils traitent conformément à leurs propres politiques de confidentialité.</p>
 <p>Les principaux fournisseurs actuellement utilisés comprennent notamment :</p>
@@ -495,6 +508,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, RPC public Solana</td></tr>
 <tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>Icônes des banques (facultatif, désactivé par défaut)</td><td>le site web de la banque elle-même, DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. Notifications et widget</h2>
@@ -548,7 +562,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <p>Para exibir taxas de câmbio, cotações e saldos de carteiras, o app envia solicitações diretamente do seu celular para serviços públicos. Essas solicitações contêm apenas:</p>
 <ul>
 <li>códigos de moedas, criptomoedas e ações (por exemplo, <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
-<li>os endereços <strong>públicos</strong> de carteiras que você adicionar, para consultar os saldos.</li>
+<li>os endereços <strong>públicos</strong> de carteiras que você adicionar, para consultar os saldos;</li>
+<li>o domínio do site de um banco que você adicionar (por exemplo, <code>mbank.pl</code>), somente se você ativar os ícones de bancos nas Configurações (desativado por padrão), para baixar o ícone dele.</li>
 </ul>
 <p>Nomes de contas, valores e transações nunca são enviados. <strong>Frases de recuperação (seed phrases) e chaves privadas nunca são solicitadas.</strong> Como em qualquer solicitação pela internet, esses serviços recebem seu endereço IP e informações técnicas básicas, e os tratam de acordo com as próprias políticas de privacidade.</p>
 <p>Os principais provedores usados atualmente incluem (mas não se limitam a):</p>
@@ -562,6 +577,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, RPC público da Solana</td></tr>
 <tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>Ícones de bancos (opcional, desativado por padrão)</td><td>o site do próprio banco, DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. Notificações e widget</h2>
@@ -615,7 +631,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <p>Döviz kurlarını, fiyatları ve cüzdan bakiyelerini göstermek için uygulama doğrudan telefonunuzdan herkese açık hizmetlere istek gönderir. Bu istekler yalnızca şunları içerir:</p>
 <ul>
 <li>para birimi, kripto para ve hisse senedi kodları (örneğin <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
-<li>bakiyelerini okumak için eklediğiniz <strong>herkese açık</strong> cüzdan adresleri.</li>
+<li>bakiyelerini okumak için eklediğiniz <strong>herkese açık</strong> cüzdan adresleri;</li>
+<li>yalnızca Ayarlar’da banka simgelerini açarsanız (varsayılan olarak kapalı), simgesini indirmek için eklediğiniz bir bankanın web sitesi alan adı (örneğin <code>mbank.pl</code>).</li>
 </ul>
 <p>Hesap adları, tutarlar ve işlemler asla gönderilmez. <strong>Kurtarma ifadeleri (seed phrase) ve özel anahtarlar asla istenmez.</strong> Her internet isteğinde olduğu gibi bu hizmetler IP adresinizi ve temel teknik bilgileri alır ve bunları kendi gizlilik politikaları kapsamında işler.</p>
 <p>Şu anda kullanılan başlıca sağlayıcılar şunlardır (bunlarla sınırlı olmamak üzere):</p>
@@ -629,6 +646,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, Solana herkese açık RPC</td></tr>
 <tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>Banka simgeleri (isteğe bağlı, varsayılan olarak kapalı)</td><td>bankanın kendi web sitesi, DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. Bildirimler ve widget</h2>
@@ -682,7 +700,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <p>Untuk menampilkan kurs, harga, dan saldo dompet, aplikasi mengirim permintaan langsung dari ponsel Anda ke layanan publik. Permintaan ini hanya berisi:</p>
 <ul>
 <li>kode mata uang, koin, dan saham (misalnya <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>);</li>
-<li>alamat dompet <strong>publik</strong> yang Anda tambahkan, untuk membaca saldonya.</li>
+<li>alamat dompet <strong>publik</strong> yang Anda tambahkan, untuk membaca saldonya;</li>
+<li>domain situs web bank yang Anda tambahkan (misalnya <code>mbank.pl</code>), hanya jika Anda mengaktifkan ikon bank di Pengaturan (nonaktif secara default), untuk mengunduh ikonnya.</li>
 </ul>
 <p>Nama rekening, jumlah, dan transaksi tidak pernah dikirim. <strong>Frasa pemulihan (seed phrase) dan kunci privat tidak pernah diminta.</strong> Seperti permintaan internet pada umumnya, layanan ini menerima alamat IP Anda dan informasi teknis dasar, lalu memprosesnya sesuai kebijakan privasi masing-masing.</p>
 <p>Penyedia utama yang saat ini digunakan antara lain (tetapi tidak terbatas pada):</p>
@@ -696,6 +715,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, RPC publik Solana</td></tr>
 <tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>Ikon bank (opsional, nonaktif secara default)</td><td>situs web bank itu sendiri, DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. Notifikasi dan widget</h2>
@@ -750,6 +770,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <ul>
 <li>通貨、暗号資産、株式のコード（例：<code>EUR</code>、<code>BTC</code>、<code>AAPL</code>）</li>
 <li>残高を取得するためにお客様が追加した<strong>公開</strong>ウォレットアドレス</li>
+<li>お客様が追加した銀行のウェブサイトのドメイン（例：<code>mbank.pl</code>）。設定で銀行アイコンをオンにした場合（初期設定はオフ）に限り、そのアイコンをダウンロードするために使用します</li>
 </ul>
 <p>口座名、金額、取引が送信されることは一切ありません。<strong>シードフレーズや秘密鍵の入力を求めることも一切ありません。</strong>通常のインターネット通信と同様に、これらのサービスはお客様の IP アドレスと基本的な技術情報を受け取り、各事業者のプライバシーポリシーに従って処理します。</p>
 <p>現在利用している主な事業者は以下のとおりです（ただし、これらに限りません）。</p>
@@ -763,6 +784,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum、BNB Chain、Polygon、Arbitrum、Base、Optimism、Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON、TON、Solana</td><td>TronGrid, tonapi.io, Solana public RPC</td></tr>
 <tr><td>Litecoin、Dogecoin、XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>銀行アイコン（任意、初期設定はオフ）</td><td>銀行自身のウェブサイト、DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. 通知とウィジェット</h2>
@@ -817,6 +839,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <ul>
 <li>통화, 코인, 주식 코드(예: <code>EUR</code>, <code>BTC</code>, <code>AAPL</code>)</li>
 <li>잔액을 조회하기 위해 사용자가 추가한 <strong>공개</strong> 지갑 주소</li>
+<li>사용자가 추가한 은행의 웹사이트 도메인(예: <code>mbank.pl</code>) — 설정에서 은행 아이콘을 켠 경우에만(기본값: 꺼짐) 해당 아이콘을 다운로드하기 위해 사용</li>
 </ul>
 <p>계좌 이름, 금액, 거래 내역은 절대 전송되지 않습니다. <strong>시드 문구와 개인 키는 절대 요청하지 않습니다.</strong> 다른 모든 인터넷 요청과 마찬가지로, 이러한 서비스는 사용자의 IP 주소와 기본적인 기술 정보를 수신하며 자체 개인정보처리방침에 따라 이를 처리합니다.</p>
 <p>현재 사용 중인 주요 제공업체는 다음과 같습니다(이에 국한되지 않습니다).</p>
@@ -830,6 +853,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum, BNB Chain, Polygon, Arbitrum, Base, Optimism, Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON, TON, Solana</td><td>TronGrid, tonapi.io, Solana public RPC</td></tr>
 <tr><td>Litecoin, Dogecoin, XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>은행 아이콘(선택 사항, 기본값: 꺼짐)</td><td>은행 자체 웹사이트, DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. 알림 및 위젯</h2>
@@ -883,7 +907,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <p>为显示汇率、价格和钱包余额，本应用会直接从您的手机向公共服务发送请求。这些请求仅包含：</p>
 <ul>
 <li>货币、加密货币和股票代码（例如 <code>EUR</code>、<code>BTC</code>、<code>AAPL</code>）；</li>
-<li>您添加的<strong>公开</strong>钱包地址，用于读取其余额。</li>
+<li>您添加的<strong>公开</strong>钱包地址，用于读取其余额；</li>
+<li>您添加的银行的网站域名（例如 <code>mbank.pl</code>），仅在您于“设置”中开启银行图标时（默认关闭）发送，用于下载其图标。</li>
 </ul>
 <p>账户名称、金额和交易记录绝不会被发送。<strong>我们绝不会索要助记词或私钥。</strong>与任何网络请求一样，这些服务会收到您的 IP 地址和基本技术信息，并依据其自身的隐私政策进行处理。</p>
 <p>目前使用的主要服务提供商包括（但不限于）：</p>
@@ -897,6 +922,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum、BNB Chain、Polygon、Arbitrum、Base、Optimism、Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON、TON、Solana</td><td>TronGrid, tonapi.io, Solana public RPC</td></tr>
 <tr><td>Litecoin、Dogecoin、XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>银行图标（可选，默认关闭）</td><td>银行自身网站、DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. 通知与小组件</h2>
@@ -950,7 +976,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <p>為顯示匯率、價格及錢包餘額，本應用程式會直接從您的手機向公開服務發出請求。這些請求僅包含：</p>
 <ul>
 <li>貨幣、加密貨幣及股票代碼（例如 <code>EUR</code>、<code>BTC</code>、<code>AAPL</code>）；</li>
-<li>您新增的<strong>公開</strong>錢包地址，用於讀取其餘額。</li>
+<li>您新增的<strong>公開</strong>錢包地址，用於讀取其餘額；</li>
+<li>您新增的銀行的網站網域（例如 <code>mbank.pl</code>），僅在您於「設定」中開啟銀行圖示時（預設關閉）傳送，用於下載其圖示。</li>
 </ul>
 <p>帳戶名稱、金額及交易紀錄絕不會被傳送。<strong>我們絕不會要求您提供助記詞或私鑰。</strong>如同任何網路請求，這些服務會收到您的 IP 位址及基本技術資訊，並依其自身的隱私權政策進行處理。</p>
 <p>目前使用的主要服務供應商包括（但不限於）：</p>
@@ -964,6 +991,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;display:flex;justify-co
 <tr><td>Ethereum、BNB Chain、Polygon、Arbitrum、Base、Optimism、Avalanche</td><td>PublicNode (*.publicnode.com)</td></tr>
 <tr><td>TRON、TON、Solana</td><td>TronGrid, tonapi.io, Solana public RPC</td></tr>
 <tr><td>Litecoin、Dogecoin、XRP</td><td>BlockCypher, xrplcluster.com</td></tr>
+<tr><td>銀行圖示（選用，預設關閉）</td><td>銀行本身的網站、DuckDuckGo (icons.duckduckgo.com)</td></tr>
 </tbody></table></div>
 
 <h2>5. 通知與小工具</h2>
